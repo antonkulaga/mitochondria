@@ -1,0 +1,25 @@
+name: mitochondria
+channels:
+  - conda-forge
+  - bioconda
+  - pytorch
+  - plotly
+  - defaults
+dependencies:
+  - python=3.10
+  - biopython
+  - more-itertools
+  - setuptools
+  - click
+  - plotly
+  - jupyterlab
+  - jupyter
+  - clustalw
+  - pip:
+      - pyfunctional
+      - pycomfort>=0.0.14
+      - polars
+      - pyarrow
+      - kaleido
+      - pyparsing
+      - logomaker
